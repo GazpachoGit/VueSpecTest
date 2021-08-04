@@ -1,3 +1,4 @@
+export default `
 return function () {
   return {
     /*
@@ -342,4 +343,6 @@ return function () {
       };
     }
   };
-};
+}
+
+`;
