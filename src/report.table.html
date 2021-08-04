@@ -1,4 +1,4 @@
-<div>
+<div id="report-preview-content">
   <div>Report preview</div>
   <div class="navigator">
     <button v-on:click="decrementPage()">&#8678;</button>
@@ -12,7 +12,10 @@
     <button v-on:click="shiftSelectedLineUp()">&#8679;</button>
     <button v-on:click="shiftSelectedLineDown()">&#8681;</button>
   </div>
-  <table style="border: 1px solid black; padding: 0px;" cellspacing="0">
+  <table
+    style="border: 1px solid black; padding: 0px; width: auto;"
+    cellspacing="0"
+  >
     <!-- Table header -->
     <tr>
       <td class="verticalTableCell" cellspacing="0">Формат</td>

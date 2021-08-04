@@ -1,5 +1,5 @@
 export default `
-#app {
+#report-preview-content {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,39 +23,46 @@ export default `
 .cellFormat {
   border: 1px solid black;
   width: 20px;
+  white-space: normal;
 }
 
 .cellZone {
   border: 1px solid black;
   width: 20px;
+  white-space: normal;
 }
 
 .cellPosition {
   border: 1px solid black;
   width: 20px;
+  white-space: normal;
 }
 
 .cellShifr {
   border: 1px solid black;
   width: 170px;
   text-align: left;
+  white-space: normal;
 }
 
 .cellName {
   border: 1px solid black;
   width: 170px;
   text-align: left;
+  white-space: normal;
 }
 
 .cellQuantity {
   border: 1px solid black;
   width: 50px;
+  white-space: normal;
 }
 
 .cellNote {
   border: 1px solid black;
   width: 100px;
   text-align: left;
+  white-space: normal;
 }
 
 .cellNoteDLine {
@@ -63,11 +70,13 @@ export default `
   width: 100px;
   font-size: x-small;
   text-align: left;
+  white-space: normal;
 }
 
 .cellTest {
   border: 1px solid black;
   width: 100px;
+  white-space: normal;
 }
 
 .highlight {
