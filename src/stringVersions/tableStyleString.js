@@ -23,46 +23,39 @@ export default `
 .cellFormat {
   border: 1px solid black;
   width: 20px;
-  white-space: normal;
 }
 
 .cellZone {
   border: 1px solid black;
   width: 20px;
-  white-space: normal;
 }
 
 .cellPosition {
   border: 1px solid black;
   width: 20px;
-  white-space: normal;
 }
 
 .cellShifr {
   border: 1px solid black;
   width: 170px;
   text-align: left;
-  white-space: normal;
 }
 
 .cellName {
   border: 1px solid black;
   width: 170px;
   text-align: left;
-  white-space: normal;
 }
 
 .cellQuantity {
   border: 1px solid black;
   width: 50px;
-  white-space: normal;
 }
 
 .cellNote {
   border: 1px solid black;
   width: 100px;
   text-align: left;
-  white-space: normal;
 }
 
 .cellNoteDLine {
@@ -70,20 +63,45 @@ export default `
   width: 100px;
   font-size: x-small;
   text-align: left;
-  white-space: normal;
 }
 
 .cellTest {
   border: 1px solid black;
   width: 100px;
-  white-space: normal;
 }
 
 .highlight {
-  background-color: #00EEEE;
+  background-color: #00eeee;
 }
 
 tr:hover {
   cursor: pointer;
+}
+
+.wideCell {
+  border: 1px solid black;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.wideCellExecution {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.wideCellNote {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.literaExecCell {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.executionCell {
+  border: 1px solid black;
+  text-decoration: underline;
+  text-align: center;
 }
 `;

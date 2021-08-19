@@ -76,3 +76,30 @@
 tr:hover {
   cursor: pointer;
 }
+
+.wideCell {
+  border: 1px solid black;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.wideCellExecution {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.wideCellNote {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.literaExecCell {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.executionCell {
+  border: 1px solid black;
+  text-decoration: underline;
+  text-align: center;
+}
